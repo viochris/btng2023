@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Biodata</title>
+</head>
+<body>
+    <form style="border: 1px solid black";>
+        <div style="padding: 10px";>
+        <h1><b>Formulir Biodata</b></h1>
+        
+        <table>
+            <tr>
+                <td for="username">Nama</td>
+                <td>:</td>
+                <td><input type="text" placeholder="Nama anda" id="username"></td>
+            </tr>
+
+            <tr> 
+                <td>NIM</td>
+                <td>:</td>
+                <td><input type="text" placeholder="Masukkan NIM anda"></td>
+            </tr>
+
+            <tr>
+                <td>Jurusan</td>
+                <td>:</td>
+                <td><input type="text" placeholder="Jurusan anda"></td>
+            </tr>
+
+            <tr>
+                <td>Fakultas</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option>Fakultas Ilmu Kompter</option>
+                        <option>Fakultas Ekonomo dan Bisnis</option>
+                        <option>Fakultas Ilmu Budaya</option>
+                        <option>Fakultas Kesehatan</option>
+                        <option>Fakultas Teknik Pasca Sarjana</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Angkatan</td>
+                <td>:</td>
+                <td><input type="text" placeholder="Angkatan tahun berapa?"></td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    Pria<input type="radio" value="Pria" name="JK">
+                    Wanita<input type="radio" value="Wanita" name="JK">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="email"></td>
+            </tr>
+        </table>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <a href="biodata.html">
+            <button type="button">Biodata</button>
+        </a>
+        </div>
+    </form>
+</body>
+</html>
