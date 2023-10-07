@@ -1,0 +1,59 @@
+body{
+    background-image: url(/Aset/Image/sakura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1{
+    color: red;
+}
+
+#judul{
+    font-weight: 800px;
+}
+
+.sub-judul{
+    color : blueviolet ;
+    text-shadow: 10px 10px 10px green;
+    font-size: 100px;
+}
+
+.content{
+    font-style: italic;
+    color: green;
+}
+
+.p1, .p3{
+    background-color: aqua;
+}
+
+.link:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+
+.link1:focus{
+    background-color: yellowgreen;
+    color: white;
+}
+
+.link2:active{
+    background-color: rgb(50, 66, 205);
+}
+
+.box{
+    border: 5px ridge red;
+    padding: 10px;
+    margin: 20px;
+}
+
+.content1{
+    border: 2px ridge blue;
+    padding-left: 10px;
+    background-image: url(/Aset/Image/sakura.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
